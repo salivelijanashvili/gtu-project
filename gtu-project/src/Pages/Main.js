@@ -1,16 +1,10 @@
 import MultiActionAreaCard from "../Components/MultiActionAreaCard";
+import NavBars from "../Components/NavBars";
 
 const Main = () => {
     return (
         <div className='main'>
-            <p>
-                <b>
-                <u><a>Welcome to our
-                external data platform.
-                </a>
-                </u>
-                </b>
-            </p>
+            <NavBars />
             <MultiActionAreaCard />
         </div>
     
